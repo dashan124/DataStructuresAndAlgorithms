@@ -1,3 +1,6 @@
+
+import sys
+
 def get(n,mem,count,arr):
     if n<0:
         return 0
@@ -14,3 +17,4 @@ n,count=map(int,input().split())
 arr=list(map(int,input().split()))
 mem=[[-1 for j in range(count+1)]for i in range(n+1)]
 print(get(n,mem,count,arr))
+
